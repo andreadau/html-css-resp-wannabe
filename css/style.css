@@ -76,7 +76,7 @@ img {
 
 @media screen and (max-width: 420px) {
   body {
-  width: 100vw;
+    width: 100vw;
   }
  #steps .container>.row {
    background-color: lightyellow;
@@ -96,8 +96,7 @@ img {
   width: 100%;
  }
   .row {
-  margin: auto;
-  width: 100%;
+  width: 100vw;
   }
   #why .row>.first,
   #why .row>.second,
@@ -111,7 +110,7 @@ img {
  /* Tablet viewport */
 @media screen and (max-width: 768px) {
   body {
-    width: 768px;
+    width: 100vw;
   }
  #steps .container>.row {
    background-color: lightyellow;
@@ -129,9 +128,9 @@ img {
   width: 100%;
   margin-top: 100px;
  }
-  .row {
-  width: 100%;
-  }
+ .row {
+ width: 100vw;
+ }
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
